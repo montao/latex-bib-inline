@@ -1,5 +1,5 @@
 \documentclass{article}
-\begin{filecontents*}{\doc.bib}
+\begin{filecontents*}{\jobname.bib}
 @ARTICLE{greenwade93,
   author  = "George Greenwade",
   title   = "The {C}omprehensive {T}ex {A}rchive {N}etwork ({CTAN})",
@@ -27,7 +27,7 @@
 }
 \end{filecontents*}
 \usepackage[style=numeric,backend=biber]{biblatex}
-\addbibresource{\doc.bib}
+\addbibresource{\jobname.bib}
 \begin{document}
   Hello\cite{greenwade93}.
   
